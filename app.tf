@@ -10,6 +10,6 @@ resource "aws_launch_template" "app" {
   }
 
   tags = {
-    Name = "${var.APP_NAME}-${var.module_name}-instance"
+    Name = "${var.APP_NAME}-Auction-instance"
   }
 }
